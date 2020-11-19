@@ -1,15 +1,12 @@
 # TheOneBadUSB
-One BadUSB to rule them all
+One BadUSB to rule them all using ATMEGA32U4
 
 # English
 TODO
 
 # Español
-[TOC]
 
-
-
-![000IMG_6482.JPG](:/b91953f24368439392a5075287ce9acf)
+![ATMEGA32U4](media/ATMEGA32U4.png)
 
 
 ## Introducción
@@ -34,12 +31,7 @@ A continuación, pongo los enlaces de AliExpress y Amazon de lo que he utilizado
 - [Beetle Leonardo-mini Placa de desarrollo, USB, ATMEGA32U4](https://es.aliexpress.com/item/32617886318.html?spm=a2g0s.9042311.0.0.274263c0ReXroY): Placa muy parecida a la clásica Attiny85 por unos 3,8 euros cada una. 
 - [Teclado CJMCU-VIRTUAL, USB, TF, ATMEGA32U](https://es.aliexpress.com/item/4001268341850.html?spm=a2g0s.9042311.0.0.274263c0ReXroY): Placa con ranura USB por unos 6,5 euros. 
 
-
-
-
-![11IMG_6467.JPG](:/7548e97175384caaacd67fac796178e6)
-
-
+![Hardware - ATMEGA32U4](media/hardware.png)
 
 
 ## Instalación
